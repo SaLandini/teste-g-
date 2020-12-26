@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(asserts/fonts/AmaticSC-Bold.ttf);
+}
+
+body {
+    background-color: rgb(13, 18, 22);
+    color: #ffffff;
+    font-family: 'Amatic SC';
+}
+
+.content .title, .content .imagem #titu {
+    font-size: xx-large;
+}
+
+.content .imagem #imag {
+    border: solid 2px #fc3535;
+    border-radius: 20px;
+}
+
+.content .butao #butao {
+    background-color: rgb(13, 18, 22);
+    color: #ffffff;
+    font-family: 'Amatic SC';
+    font-size: xx-large;
+    border: solid 2px #fc3535;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.content .butao #butao:hover {
+    background-color: rgb(40, 52, 61);
+    border: dotted 2px #7055ec;
+}
+
+.content .footer {
+    font-size: xx-small;
+}
